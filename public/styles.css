@@ -1,0 +1,190 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    border: #333;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #946024;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #946024;
+  }
+  
+  form {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form label {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Landing page styles */
+  #landing-page {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  #landing-page button {
+    margin: 10px;
+  }
+  
+  /* Login and SignUp pages styles */
+  .page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .page-container form {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .page-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .page-container .btn {
+    margin-top: 15px;
+  }
+  
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+button {
+  background-color: #946024;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #946024;
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form label {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Landing page styles */
+#landing-page {
+  text-align: center;
+  padding: 50px;
+}
+
+#landing-page button {
+  margin: 10px;
+}
+
+/* Login and SignUp pages styles */
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.page-container form {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.page-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.page-container .btn {
+  margin-top: 15px;
+}
+
+/* Core Member Buttons on /core route */
+.core-buttons {
+  text-align: center;
+}
+
+.core-buttons button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+}
+
+.core-buttons h1 {
+  margin-bottom: 20px;
+}
+
+.core-buttons p {
+  font-size: 18px;
+}
